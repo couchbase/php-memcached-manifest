@@ -16,4 +16,6 @@
   <project path="dependencies/libmemcached" name="libmemcached"
            remote="libmemcached" />
 
+  <project name="php-memcached" remote="php-memcached" />
+
 </manifest>
