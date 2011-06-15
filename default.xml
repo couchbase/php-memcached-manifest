@@ -9,7 +9,9 @@
            fetch="git://github.com/php-memcached-dev/"
            review="review.membase.org" />
 
-  <default revision="master" remote="php-memcached" />
+  <remote  name="build-php-memcached"
+           fetch="git://github.com/couchbaselabs/"
+           review="review.membase.org" />
 
   <!-- Build tools is master. -->
 
@@ -17,5 +19,6 @@
            remote="libmemcached" />
 
   <project name="php-memcached" remote="php-memcached" />
+  <project name="build-php-memcached" remote="build-php-memcached" />
 
 </manifest>
