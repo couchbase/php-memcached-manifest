@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="libmemcached"
-           fetch="git://github.com/membase/libmemcached.git"
+           fetch="git://github.com/membase/"
            review="review.membase.org" />
 
   <remote  name="php-memcached"
