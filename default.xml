@@ -17,9 +17,7 @@
 
   <!-- Build tools is master. -->
 
-  <project path="dependencies/libmemcached" name="libmemcached"
-           remote="libmemcached" />
-
+  <project name="libmemcached" remote="libmemcached" />
   <project name="php-memcached" remote="php-memcached" />
   <project name="build-php-memcached" remote="build-php-memcached" />
 
