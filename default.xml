@@ -9,7 +9,7 @@
            fetch="gitgit://github.com/php-memcached-dev/php-memcached.git"
            review="review.membase.org" />
 
-  <default revision="master" remote="php-memcache" />
+  <default revision="master" remote="php-memcached" />
 
   <!-- Build tools is master. -->
 
