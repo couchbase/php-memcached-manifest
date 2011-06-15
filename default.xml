@@ -10,7 +10,7 @@
            review="review.membase.org" />
 
   <remote  name="build-php-memcached"
-           fetch="git://github.com/couchbaselabs/"
+           fetch="git@github.com:couchbaselabs/"
            review="review.membase.org" />
 
   <default revision="master" remote="php-memcached" />
