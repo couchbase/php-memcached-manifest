@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="libmemcached"
+           fetch="git://github.com/membase/libmemcached.git"
+           review="review.membase.org" />
+
+  <remote  name="php-memcached"
+           fetch="gitgit://github.com/php-memcached-dev/php-memcached.git"
+           review="review.membase.org" />
+
+  <default revision="master" remote="php-memcache" />
+
+  <!-- Build tools is master. -->
+
+  <project path="dependencies/libmemcached" name="libmemcached"
+           remote="libmemcached" />
+
+</manifest>
