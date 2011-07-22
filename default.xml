@@ -9,6 +9,10 @@
            fetch="git@github.com:couchbase/"
            review="review.membase.org" />
 
+  <remote  name="php-couchbase"
+           fetch="git@github.com:couchbase/"
+           review="review.membase.org" />
+
   <remote  name="build-php-memcached"
            fetch="git@github.com:couchbase/"
            review="review.membase.org" />
@@ -19,6 +23,7 @@
 
   <project name="libmemcached" remote="libmemcached" />
   <project name="php-memcached" remote="php-memcached" />
+  <project name="php-couchbase" remote="php-couchbase" />
   <project name="build-php-memcached" remote="build-php-memcached" />
 
 </manifest>
