@@ -24,6 +24,10 @@
   <project name="libmemcached" remote="libmemcached" />
   <project name="php-memcached" remote="php-memcached" />
   <project name="php-couchbase" remote="php-couchbase" revision="1.7.x" />
-  <project name="build-php-memcached" remote="build-php-memcached" revision="1.7.x" />
+  <project name="build-php-memcached" remote="build-php-memcached" revision="1.7.x">
+    <copyfile src="Makefile" dest="Makefile" />
+    <copyfile src="build-php-memcached.sh" dest="build-php-memcached.sh" />
+    <copyfile src="build-source-package.sh" dest="build-source-package.sh" />
+  </project>
 
 </manifest>
