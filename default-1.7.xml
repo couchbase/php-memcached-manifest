@@ -2,19 +2,19 @@
 <manifest>
 
   <remote  name="libmemcached"
-           fetch="git://github.com/membase/"
+           fetch="https://github.com/membase/"
            review="review.membase.org" />
 
   <remote  name="php-memcached"
-           fetch="git@github.com:couchbase/"
+           fetch="https://github.com/couchbase/"
            review="review.membase.org" />
 
   <remote  name="php-couchbase"
-           fetch="git@github.com:couchbaselabs/"
+           fetch="https://github.com/couchbaselabs/"
            review="review.membase.org" />
 
   <remote  name="build-php-memcached"
-           fetch="git@github.com:couchbase/"
+           fetch="https://github.com/couchbase/"
            review="review.membase.org" />
 
   <default revision="master" remote="php-memcached" />
